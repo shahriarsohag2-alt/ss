@@ -1,0 +1,11 @@
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/scrub/*
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+  Access-Control-Allow-Origin: *
+
+/assets/aistudio/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
